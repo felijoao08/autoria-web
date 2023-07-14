@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/*AQUI IREI MODELAR O CABEÇALHO E SEUS ELEMENTOS*/
+body {
+    font-family: Helvetica;
+}
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.img-logo {
+    background-color: black;
+    height: 50px;
+    margin: 10px;
+}
+.links-logo {
+    margin-left: auto;
+}
+.links-logo > a {
+    color: white;
+    margin-left: 20px;
+}
+.links-logo > a:hover {
+    text-decoration: none;
+}
+/*AQUI IREI ORGANIZAR A MINHA SESSAO <MISSION E SEUS ELEMENTOS*/
+.mission {
+    background-image: url("resources/img-mission-background.webp");
+    height: 700px;
+    display: flex;
+    align-items: center
+}
+.div-mission {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
